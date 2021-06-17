@@ -1,0 +1,97 @@
+body {
+	background-image: url(money_small.jpg);
+	background-position: center;
+	background-size: cover;
+	color: #242526;
+	margin: 0;
+	display: flex;
+	font-family: 'Shrikhand', cursive;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.calculator_container {
+	background-color: #7babbd;
+	opacity: 0.8;
+	border-radius: 20px;
+	border: #126280 solid 5px;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+	padding: 2rem 3rem;
+	margin-left: 55%
+}
+
+h1 {
+	margin: 0 0 1rem;
+	text-align: center;
+}
+
+.form_control {
+	margin: 0.75rem 0;
+}
+
+.form_control input {
+	padding: 0.25rem;
+	width: 100%;
+}
+
+.form_control label {
+	display: block;
+}
+
+.calculator_container footer {
+	margin-top: 2rem;
+}
+
+.result {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.25rem;
+}
+
+#calc-btn {
+	margin-top: 1rem;
+	background: #126280;
+	color: #fff;
+	padding: 1em 1.5em;
+	border: none;
+	border-radius: 50px;
+	font-family: 'Shrikhand', cursive;
+	font-size: 0.9em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+#calc-btn:hover,
+#calc-btn:focus {
+	cursor: pointer;
+	background: #fff;
+	color: #126280;
+}
+
+.button {
+	display: flex;
+	justify-content: right;
+}
+
+.form_currency {
+	display: inline;
+	flex-direction: column;
+}
+
+.currency {
+	margin-bottom: 0.5rem;
+}
+
+.choose	{
+	display: flex;
+	justify-content: space-between;
+}
+
+#eu-result {
+	display: none;
+}	
+
+#gbp-result {
+	display: none;
+}

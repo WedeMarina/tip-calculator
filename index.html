@@ -1,0 +1,72 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="calculator_container">
+                <h1>Tip Calculator</h1>
+                <div class="form_control">
+                    <label for="bill">Bill (in USD)</label>
+                    <input type="number" id="bill_value" placeholder="100"/>
+                </div>
+                
+                <div class="form_control">
+                    <label for="tip">Tip %</label>
+                    <input type="number" id="tip_value" placeholder="10"/>
+                </div>
+                
+                <div class="form_control">
+                    <label for="people">People attending</label>
+                    <input type="number" id="people_value" placeholder="2"/>
+                </div>
+                
+                <div class="form_currency">
+                    <p class="currency">Convert to your currency:</p>
+                    <div class="choose">
+                        <div class="eu">
+                            <label for="euro">🇪🇺 Euro</label>
+                            <input type="checkbox" id="euro"/>
+                        </div>
+                        <div class="pound">
+                            <label for="gbp">🇬🇧 GBP</label>
+                            <input type="checkbox" id="gbp"/>
+                        </div>
+                    </div> 
+                </div>           
+                
+                <footer>
+                    <div class="result">
+                        <span>🇺🇸 Total:</span> <strong id="total"></strong>
+                    </div>
+                    <div class="result">
+                        <span>🇺🇸 Total p.P.:</span> <strong id="split"></strong>
+                    </div>
+                
+                    <div id="eu-result">
+                        <div class="result">
+                            <span>🇪🇺 Total:</span> <strong id="total-eur"></strong>
+                        </div>
+                        <div class="result">
+                            <span>🇪🇺 Total p.P.:</span> <strong id="split-eur"></strong>
+                        </div>
+                    </div>
+                    
+                    <div id="gbp-result">                
+                        <div class="result">
+                            <span>🇬🇧 Total:</span> <strong id="total-pound"></strong>
+                        </div>
+                        <div class="result">
+                            <span>🇬🇧 Total p.P.:</span> <strong id="split-pound"></strong>
+                        </div>
+                    </div>
+                    
+                    <div class="button">
+                        <button id="calc-btn">Calculate tip</button>    
+                    </div> 
+                </footer>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
