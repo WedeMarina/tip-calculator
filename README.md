@@ -1,19 +1,13 @@
-# title(){
-		
-		return this.options.title || this.options.name;
-	}
+# Weekly Web Dev Challenge - Tip Calculator
 
-## Supporting Scrimba
+This is my entry for Scrimba's Weekly Web Dev Challenge - Tip Calculator, using HTML, CSS and Javascript. By entering the amount of your bill and the tip in % you want to give, it calculates the total you will have to pay.
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+## Added features:
+- Added an input field to enter how many people you were having the meal with
+- Based on that, you can calculate the total per person
+- Added the option to convert the total from USD to EUR or GBP
+- Added an event listener not only to the button, but also to the enter key
+- The totals of the currencies you did not choose are hidden / will be hidden again after unchecking the box and press the button or enter key again
 
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
-
-	It would also mean the world to us if you share the courses.  
-
-Happy Coding!
+## Deployment
+Deployment via Netlify at:
